@@ -46,7 +46,8 @@
           "title": "Preview Options",
           "debugger": "Open Console Window during preview",
           "skip_auth_screen": "Skip Auth Screen",
-          "landscape_terrain_enabled": "Enable Landscape Terrains"
+          "landscape_terrain_enabled": "Enable Landscape Terrains",
+          "show_highlight": "Show Highlight On Clickable"
         },
         "publish_options": {
           "history": "Publishing History"

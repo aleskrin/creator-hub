@@ -287,6 +287,15 @@ function PreviewOptions({ onChange, options }: PreviewOptionsProps) {
           }
           label={t('editor.header.actions.preview_options.landscape_terrain_enabled')}
         />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={!!options.showHighlight}
+              onChange={handleChange({ showHighlight: !options.showHighlight })}
+            />
+          }
+          label={t('editor.header.actions.preview_options.show_highlight')}
+        />
       </FormGroup>
     </div>
   );
